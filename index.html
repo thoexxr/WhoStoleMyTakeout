@@ -3,27 +3,50 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>谁偷了我的外卖！</title>
+<title>谁偷了我的外卖！ · Who Stole My Takeout?</title>
+<meta name="description" content="校园无尽跑酷游戏：上滑跳跃、下滑滑铲、二段跳躲避障碍，追回被偷走的外卖。12 项成就、Game Center 排行榜，五语离线可玩。">
 <style>
-  body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:#f6f7f9;
+  :root{color-scheme:light dark}
+  body{margin:0;min-height:100vh;background:#f6f7f9;
        font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans","Apple SD Gothic Neo",Arial,sans-serif;color:#1b1d21}
-  .card{max-width:420px;padding:32px 28px;text-align:center}
+  .wrap{max-width:860px;margin:0 auto;padding:48px 20px;text-align:center}
   .logo{width:64px;height:64px;border-radius:18px;margin:0 auto 14px;display:flex;align-items:center;justify-content:center;
         background:linear-gradient(135deg,#F0A45A,#D0761E);font-size:30px}
-  h1{font-size:20px;margin:0 0 6px}
-  p{color:#646a73;font-size:13.5px;line-height:1.7;margin:0 0 22px}
-  a{display:block;text-decoration:none;font-size:14.5px;font-weight:600;color:#fff;background:#D9822B;
-    padding:13px;border-radius:999px;margin:10px 0}
-  a.alt{background:#fff;color:#D9822B;border:1px solid #E0A25E}
+  h1{font-size:28px;margin:0 0 6px}
+  .sub{color:#646a73;font-size:15px;line-height:1.7;max-width:560px;margin:0 auto 20px}
+  .meta{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-bottom:24px}
+  .tag{background:#fff;border:1px solid #e5e5ea;border-radius:999px;padding:6px 14px;font-size:13px;color:#333}
+  .tag.cat{background:#fdf0e2;color:#b5651d;border-color:#f2d3b3}
+  .gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:16px;margin:28px 0 32px}
+  .gallery img{width:100%;border-radius:14px;box-shadow:0 4px 16px rgba(0,0,0,.10)}
+  .actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+  .btn{display:inline-block;text-decoration:none;font-size:14.5px;font-weight:600;border-radius:12px;padding:12px 22px}
+  .btn-pri{background:#D9822B;color:#fff}
+  .btn-sec{background:#fff;color:#D9822B;border:1px solid #E0A25E}
 </style>
 </head>
 <body>
-<div class="card">
+<div class="wrap">
   <div class="logo">🍱</div>
   <h1>谁偷了我的外卖！</h1>
-  <p>校园无尽跑酷 · Who Stole My Takeout?</p>
-  <a href="support.html">技术支持 / Support</a>
-  <a class="alt" href="privacy.html">隐私政策 / Privacy Policy</a>
+  <p class="sub">校园无尽跑酷：外卖被偷，一路横跨校园追击。上滑跳跃、下滑滑铲、二段跳躲避障碍；奶茶汉堡加分回血，滑板车电动车短暂无敌。12 项成就、Game Center 本周榜与总榜，五语完全离线。</p>
+
+  <div class="meta">
+    <span class="tag cat">休闲跑酷 / 单机游戏</span>
+    <span class="tag">iOS · 五语</span>
+    <span class="tag">离线可玩 · 不收集个人数据</span>
+  </div>
+
+  <div class="gallery">
+    <img src="takeout-shot1.jpg" alt="主菜单">
+    <img src="takeout-shot2.jpg" alt="校园追击跑酷">
+  </div>
+
+  <div class="actions">
+    <a class="btn btn-pri" href="https://apps.apple.com/us/app/who-stole-my-takeout/id6832601421" target="_blank" rel="noopener">在 App Store 下载</a>
+    <a class="btn btn-sec" href="support.html">技术支持 / Support</a>
+    <a class="btn btn-sec" href="privacy.html">隐私政策 / Privacy</a>
+  </div>
 </div>
 </body>
 </html>
